@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Praise&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Enter City">
+        <button type="submit" class="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    <div class="data-weather">
+        <div class="weather-description"></div>
+        <h1 class="city"></h1>
+        <div class="left-right">
+            <div class="left">
+                <span class="temp"></span>
+                <span class="degrees"></span>
+                <div class="container">
+                    <div class="toggle-btn ">
+                        <div class="inner-circle"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <span class="high"></span>
+                <span class="low"></span>
+                <span class="wind"></span>
+            </div>
+        </div>
+    </div>
+    <div class="giphy">
+        <img src="#"  class="gif-img" alt="">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
